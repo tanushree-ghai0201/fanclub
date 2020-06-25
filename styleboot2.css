@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+	box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-family: 'ubuntu',sans-serif;
+    color:#222;
+  }
+  .nav-link{
+    font-size: 16px !important ;
+    color:silver !important;
+    margin: 15px;
+   
+    font-family: 'righteous';
+  }
+  .nav-link:hover{
+    color:goldenrod !important;
+  }
+  .active .nav-link{
+    color:goldenrod !important;
+  }
+  .menu-right-btn{
+    padding: 13px 46px;
+    margin-right :4%;
+    color:silver !important;
+    background-color: transparent;
+    transition: all 300ms ease-out;
+  }
+  .menu-right-btn:hover{
+    background-color: goldenrod;
+  }
+  .site-content{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 400%;
+    font-family: 'permanent marker';
+  }
+  .site-desc{
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 10%;
+  }
+  .heading-1{
+    margin-top:8%;
+    font-family:'righteous';
+    font-weight: 800;
+    font-size: 200%
+
+  }
+  .social a{
+    font-size: 4.5em;
+    padding: 3rem;
+    }
+    .fa-facebook{
+    color:#3b5998;
+    }
+    .fa-twitter{
+        color:#00aced;
+    }
+    .fa-instagram {
+       
+        color:#c13584;
+    }
+    .fa-youtube{
+        color: #bb0000;
+    }
+    .fa-youtube :hover,
+    .fa-instagram :hover,
+    .fa-twitter :hover,
+    .fa-facebook :hover{
+        color:#d5d5d5;
+    }
+  #mem{
+    background-color: goldenrod;
+    border: #220 solid 1px;
+  }
+  #note{
+    font-weight: 900;
+    background-color: goldenrod;
+  }
+  .padding{
+    padding-bottom: 2rem;
+}
+  /* Section-1*/
+.para{
+  
+}
+  hr{
+    border-top: 2px solid #b4b4b4;
+    width:95%;
+}
+  /*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+      font-size: 3em;
+      padding: 2rem;
+  }
+    }
+  @media (max-width: 768px) {
+    .site-title{
+      font-size: 350%;
+    }
+    .site-desc{
+      font-size: 150%;
+    }
+      .carousel-caption h1{
+          font-size: 100%;
+          text-shadow: 1px 1px 10px #000;
+      }
+      .carousel-caption h2{
+          font-size: 140%;
+          font-weight: 400;
+          text-shadow: 1px 1px 10px #000;
+          padding-bottom: 0.2rem;
+      }
+      .carousel-caption .btn{
+          font-size:95%;
+          padding:8px 14px;
+      }
+      .display-4{
+          font-size:100%;
+      }
+      .social a{
+          font-size: 2.5em;
+          padding: 1.2rem;
+      }
+    }
+
+  @media (max-width: 576px) {
+    .site-title{
+      font-size: 200%;
+    }
+    .site-desc{
+      font-size: 130%;
+    }
+      .carousel-caption h2{
+          font-size: 200%;
+      
+      }
+      .carousel-caption .btn{
+         font-size: 90%;
+          padding: 4px 8px;
+      }
+      .display-4{
+          font-size: 1000%;
+          font-weight:900;
+      }
+      .social a{
+          font-size: 2em;
+          padding: .7rem;
+      }
+  }
